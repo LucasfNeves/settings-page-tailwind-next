@@ -19,10 +19,26 @@ Ferramentas utilizadas :
 - Memo
 - Lucide React
 
-Instalação : 
+## Funcionalidades :
+O projeto consiste mais na parte vizual porém possui funcionalidades como adicionar fotos e arquivos e gerar previews em seus respectivos inputs.
 
-Uso
-Explique como usar o seu projeto. Forneça exemplos de código, comandos ou screenshots, se aplicável.
+## Como Iniciar
+
+Para executar o projeto em sua máquina local, siga estas etapas:
+
+1. Clone o repositório:
+   
+2. Navegue até o diretório do projeto:
+
+3. Instale as dependências:
+  ```bash
+  npm install
+  ```
+
+4. Inicie a aplicação:
+  ```bash
+  npm run dev
+  ```
 
 ### Contato :
 Email : lucasfarias.ln@gmail.com
