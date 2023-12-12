@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import { Sidebar } from '@/components/Sidebar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,8 +16,18 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="pt-br" className="antialiased">
+      <head>
+        <title>Tailwind CSS UI</title>
+      </head>
+      <body className={inter.className}>
+        <div className=" grid min-h-screen grid-cols-app ">
+          <Sidebar />
+          <main className="px-8 pb-12 pt-8">{children}</main>
+        </div>
+      </body>
     </html>
   )
 }
+
+// No arquivo layout é adicionado todo o conteudo que serão renderizados em todas as páginas do site.

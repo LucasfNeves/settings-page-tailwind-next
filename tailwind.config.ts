@@ -7,14 +7,23 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    // Quando começamos a ter casos muitos especifícos da minha aplicação eu posso extender o tema do tailwind ou definir valores arbitrários
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      gridTemplateColumns: {
+        app : 'minmax(18rem, 20rem) 1fr',
+        form: 'minmax(7.5rem, 17.5rem) minmax(25rem, 1fr) minmax(0 , 1fr)'
       },
+      borderWidth : {
+        6 : '6px'
+      },
+      colors: {
+        violet: {
+          25: '#fcfaff',
+        }
+      }
     },
   },
   plugins: [],
 }
 export default config
+
