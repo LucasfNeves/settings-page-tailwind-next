@@ -3,6 +3,7 @@ import { LogOutIcon } from 'lucide-react'
 export function Profile() {
   return (
     <div className="flex-cols flex items-center gap-3">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="https://github.com/LucasfNeves.png"
         className="h-10 w-10 rounded-full"
