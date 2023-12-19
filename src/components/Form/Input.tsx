@@ -22,7 +22,7 @@ export function InputControl(props: InputControlProps) {
   return (
     <input
       {...props}
-      className="mx-1 flex-1 border-none bg-transparent p-0 text-zinc-900 placeholder-zinc-600 outline-none outline-none"
+      className="mx-1 flex-1 border-none bg-transparent p-0 text-zinc-900 placeholder-zinc-600 outline-none"
     />
   )
 }
