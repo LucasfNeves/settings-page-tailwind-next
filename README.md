@@ -20,6 +20,20 @@ Para treinar esses conceitos, criamos um Settings Page que contém um menu later
 **Padrão de Composição:**
 O padrão de composição é uma técnica de desenvolvimento de componentes que consiste em dividir o componente em partes menores. Isso permite que o componente seja mais flexível, pois cada uma das partes menores pode ser usada separadamente.
 
+## Libs :
+- Tailwind CSS
+- Radiix
+- Memo
+- Lucide-React (ícones)
+
+## Techs:
+- JavaScript;
+- TypeScript;
+- React.JS;
+- Next.JS;
+- HTML5;
+- CSS3;
+
 ## Como Iniciar
 
 Para executar o projeto em sua máquina local, siga estas etapas:
