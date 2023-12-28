@@ -1,26 +1,24 @@
-# Aplicação em Tailwind e Next
+# Settings Page criada com Tailwind CSS
 
-## Descrição:
+Essa página foi desenvolvida para estudar a biblioteca de estilização Tailwind CSS, que utiliza a abordagem de classes de utilitários (utility classes) que aplica o CSS no HTML.
 
-**Status do Projeto: Em desenvolvimento**
+## Conceitos Abordados no Projeto:
 
-O projeto é dedicado ao treinamento de habilidades de estilização usando o framework Tailwind CSS. 
-A aplicação consiste em um dashboard interativo que apresenta um formulário simulando um área de cadastro de dados pessoais.
+- Configurações do Tailwind CSS utilizando o NextJS;
+- Fundamentos do Tailwind CSS;
+- Desenvolvimento mobile first;
+- Seletores e estados;
+- Responsividade e Breakpoints;
+- Valores arbitrários e extensões de propriedades CSS;
+- Variantes e Variantes com slots;
+- Animações;
+- Estilização com Tailwind CSS;
+- Darkmode;
 
-Ferramentas utilizadas :
-- Tailwind CSS
-- ReactJS
-- NextJS
-- TypeScript
-- JavaScript
+Para treinar esses conceitos, criamos um Settings Page que contém um menu lateral responsivo, formulários para cadastro de informações e uploads de fotos e documentos. Além disso, também treinamos conceitos de **Padrão de Composição**.
 
-**Libs** :
-- Radiix
-- Memo
-- Lucide React
-
-## Funcionalidades :
-O projeto consiste mais na parte vizual porém possui funcionalidades como adicionar fotos e arquivos e gerar previews em seus respectivos inputs.
+**Padrão de Composição:**
+O padrão de composição é uma técnica de desenvolvimento de componentes que consiste em dividir o componente em partes menores. Isso permite que o componente seja mais flexível, pois cada uma das partes menores pode ser usada separadamente.
 
 ## Como Iniciar
 
