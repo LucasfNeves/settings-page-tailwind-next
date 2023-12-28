@@ -52,5 +52,5 @@ Para executar o projeto em sua máquina local, siga estas etapas:
   npm run dev
   ```
 
-### Contato :
+# Contato :
 Email : lucasfarias.ln@gmail.com
